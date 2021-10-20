@@ -22,6 +22,13 @@ Look at thiese examples
 -returns the highr parameter
 00009-9.png -> y = max(0.0,x);  
 
+
+-returns 0 for the lower values than treshold, returns 1 for the higher values than treshold
+step(treshold, value)
+-returns 0 if vals are lower than min, returns 1 if the vals are higher than  max
+the trick here is,the values between stays.
+smoothstep(min, max, value)
+
 Useful Links:
 https://thebookofshaders.com/edit.php#05/impulse.frag
 https://thebookofshaders.com/edit.php#05/cubicpulse.frag
